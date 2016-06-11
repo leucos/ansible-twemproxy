@@ -1,0 +1,7 @@
+- name: Reload systemd
+  command: systemctl daemon-reload
+
+- name: Restart twemproxy
+  service:
+    name: twemproxy
+    state: restarted
