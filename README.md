@@ -9,11 +9,11 @@ Tested on 16.04
 
 All variables can be found at twemproxy documentation.
 
-`twemproxy_mbuf_size`: 16384
-`twemproxy_output`: /var/log/twemproxy.log
-`twemproxy_stats_port`: 22221
-`twemproxy_stats_addr`: 127.0.0.1
-`twemproxy_stats_interval`: 30000 # msecs
+- `twemproxy_mbuf_size`: 16384
+- `twemproxy_output`: /var/log/twemproxy.log
+- `twemproxy_stats_port`: 22221
+- `twemproxy_stats_addr`: 127.0.0.1
+- `twemproxy_stats_interval`: 30000 # msecs
 
 # Pools
 
